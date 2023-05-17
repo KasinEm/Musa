@@ -1,0 +1,154 @@
+header {
+    background-color: #E8D5C4;
+    text-align: center;
+    padding: 1px;
+    border: 2px solid #400E32;
+}
+.Orden {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+h1 {
+    text-align: left;    
+    padding: 7px;
+    text-align: center;
+    margin: 7px;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+    
+}
+nav li {
+    display: inline-block; 
+    padding: 7px;
+    border: 7px double black;
+    margin: 7px;
+    padding: 5px 70px 5px 70px;
+    background-color:#DBDFEA;
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav li:hover {
+    border: 3px solid #5C469C;
+    background-color: #19A7CE; 
+}
+a:link, a:visited, a:active, a:hover {
+    text-decoration:none;
+    color:#000;
+}
+@media (max-width:768px) {    
+    .column {
+        flex: 100%;
+    }
+    header {
+        background-color: #EAE0DA;
+    }
+    nav {
+        font-size: 16px;
+    }
+    .nav-links {
+        display: none;
+    }
+    
+    
+    .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border:none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+    }
+     
+    .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgba(20,20,20,0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 40px;
+    
+    
+    }
+    
+}
+@media (min-width:1700px) {
+    header {
+        width: 1200px;
+    }   
+}
+
+.piedpag {
+    display: flex;
+    background-color: #C88EA7;
+    margin: 1%;
+    border: 10px solid #1B9C85;
+    justify-content: space-between;
+}
+.piedpag .Menu1 {
+    align-items: center;
+    margin: 2%;
+    padding: 2% 3% 2% 2%;
+    border-right: 5px dotted black;
+    width: 15%;
+}
+.piedpag .Menu2 {
+    align-items: center;
+    margin: 2%;
+    padding: 2% 2% 2% 2%;
+    width: 68%;
+}
+.piedpag .contac {
+    align-items: center;
+    margin: 2%;
+    padding: 2% 2% 2% 2%;
+    width: 15%;
+    height: 100%;
+    border-Left: 5px dotted black;
+}
+
+.content {
+    display: flex; 
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: row;
+   
+}
+
+img {
+    object-fit: cover;
+    width: 70%;
+    height: 15%;
+}
+.Smusa {
+    width: 45%;
+    align-items: flex-start;
+    border: 20px double #643843;
+    margin: 1% 2% 5% 2%;
+    padding: 0%;
+    width: 45%;
+}
+p {
+    font-size: 20px;
+}
+.Form {
+    width: 55%;
+    margin: 2% 2% 5% 2%;
+}
